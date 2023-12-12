@@ -8,6 +8,24 @@
 </head>
 
 <body>
+  <!--header y h1 no pueden tener id, name, ni class-->
+  <header>
+    <h1>Analizador de texto</h1>
+    <h2>Text analyzer</h2>
+  </header>
+  <textarea name="user-input" cols="60" rows="10">Write what you want to analyze...</textarea>
+  <button id="reset-button">Reset</button>
+  <ul>
+    <li data-testid="word-count" class="item-impar">Word count: </li>
+    <li data-testid="character-count" class="item-par">Character count: </li>
+    <li data-testid="character-no-spaces-count" class="item-impar">Character no spaces count: </li>
+    <li data-testid="number-count" class="item-par">Number count: </li>
+    <li data-testid="number-sum" class="item-impar">Number sum: </li>
+    <li data-testid="word-length-average" class="item-par">Word length average: </li>
+  </ul>
+  <footer>
+    <p>By: Olimar Duarte/Laboratoria</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
 </html>
