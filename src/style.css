@@ -5,6 +5,12 @@
 
 body {
     background-image: url('https://images.unsplash.com/photo-1617634667039-8e4cb277ab46?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    display: flex;
+    flex-direction:column; /* Todo el body en una columna */
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    height: 100vh; /* Para que el cuerpo ocupe al menos el 100% de la altura de la ventana */
+    margin: 0;
 }
 
 header {
@@ -15,15 +21,21 @@ h1 {
     color:transparent;
 }
 
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
 footer {
     background-color: transparent;
     height: 40px;
-    padding: 10px;
+    padding: 25px;
     margin-top: 10px;
     font-size: small;
     font-style: oblique;
     font-weight: bold;
 }
+
 .item-impar, .item-par {
     width: 300px;
     border: 1px solid black;
@@ -56,7 +68,6 @@ textarea[name]{
     border: 1px;
     font-weight: bold;
     font-size: medium;
-
 }
 
 ul {
