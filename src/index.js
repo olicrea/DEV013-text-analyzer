@@ -13,6 +13,16 @@ const button = document.getElementById("reset-button");
 function resetTextarea() {
   textarea.value = "";
   textarea.placeholder = "Write what you want to analyze...";
+
+
+  document.querySelector('li.item-odd:nth-child(1)').textContent = 'Word count: ' + 0;
+  document.querySelector('li.item-pair:nth-child(2)').textContent = 'Character count: ' + 0;
+  document.querySelector('li.item-odd:nth-child(3)').textContent = 'Character no spaces count: ' + 0;
+  document.querySelector('li.item-pair:nth-child(4)').textContent = 'Number count: ' + 0;
+  document.querySelector('li.item-odd:nth-child(5)').textContent = 'Number sum: ' + 0;
+  document.querySelector('li.item-pair:nth-child(6)').textContent = 'Word length average: ' + 0;
+
+
 }
 
 button.addEventListener("click", resetTextarea);
