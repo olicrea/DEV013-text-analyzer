@@ -80,9 +80,6 @@ const analyzer = {
         //- sumar las cifras válidas, incluyendo las que tengan decimales
         sum += parseFloat(words[i])
       } // parseFloat() permite convertir una cadena a un número porque permite la conversión de cadenas con decimales.
-      else {
-        console.log(`'${words[i]}' no es número.`);
-      }
     }
     return sum;
   },
@@ -98,13 +95,13 @@ const analyzer = {
     return sum;*/
 };
 
-console.log(analyzer.getWordCount('Felicidad y paz 123 oli89 para234guas interior'));//7
+/*console.log(analyzer.getWordCount('Felicidad y paz 123 oli89 para234guas interior'));//7
 console.log(analyzer.getCharacterCount('abc def hij 123 456'));//19
 console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- oli345 y paz '));//22
 console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- y paz '));//16
 console.log(analyzer.getAverageWordLength(' luci mar oscar '));//4
 console.log(analyzer.getNumberCount(' luci322 6 7 89 ma7ri oscar '));//8
-console.log(analyzer.getNumberSum(' saco3 casa 2.1 2 '));//4.1
+console.log(analyzer.getNumberSum(' saco3 casa 2.1 2 '));//4.1*/
 
 
 export default analyzer;

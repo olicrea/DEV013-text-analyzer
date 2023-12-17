@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 import analyzer from './analyzer.js';
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
@@ -13,21 +14,22 @@ const button = document.getElementById("reset-button");
 function resetTextarea() {
   textarea.value = "";
   textarea.placeholder = "Write what you want to analyze...";
-
-
-  document.querySelector('li.item-odd:nth-child(1)').textContent = 'Word count: ' + 0;
-  document.querySelector('li.item-pair:nth-child(2)').textContent = 'Character count: ' + 0;
-  document.querySelector('li.item-odd:nth-child(3)').textContent = 'Character no spaces count: ' + 0;
-  document.querySelector('li.item-pair:nth-child(4)').textContent = 'Number count: ' + 0;
-  document.querySelector('li.item-odd:nth-child(5)').textContent = 'Number sum: ' + 0;
-  document.querySelector('li.item-pair:nth-child(6)').textContent = 'Word length average: ' + 0;
-
-
+  
+  document.querySelector('li.item-odd:nth-child(1)').textContent = 'Word count: 0';
+  document.querySelector('li.item-pair:nth-child(2)').textContent = 'Character count: 0';
+  document.querySelector('li.item-odd:nth-child(3)').textContent = 'Character no spaces count: 0';
+  document.querySelector('li.item-pair:nth-child(4)').textContent = 'Number count: 0';
+  document.querySelector('li.item-odd:nth-child(5)').textContent = 'Number sum: 0';
+  document.querySelector('li.item-pair:nth-child(6)').textContent = 'Word length average: 0';
 }
 
 button.addEventListener("click", resetTextarea);
 
 textarea.addEventListener("keyup", function() {
+
+  if (textarea.value === '') {
+    resetTextarea();}
+  else {
 
   const wordCount = analyzer.getWordCount(textarea.value);
   document.querySelector('li.item-odd:nth-child(1)').textContent = 'Word count: ' + wordCount;
@@ -46,5 +48,6 @@ textarea.addEventListener("keyup", function() {
 
   const averageWordLength = analyzer.getAverageWordLength(textarea.value);
   document.querySelector('li.item-pair:nth-child(6)').textContent = 'Word length average: ' + averageWordLength;
+  }
 
 });
