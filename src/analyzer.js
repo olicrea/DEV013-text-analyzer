@@ -1,4 +1,4 @@
-const analyzer = {  
+const analyzer = {
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
     //- SEUDO-CÓDIGO:
@@ -12,8 +12,8 @@ const analyzer = {
   // /^[a-zA-Z]+$/g incluye palabras que contengan letras y números mientras que /[a-zA-Z]+/g) solo toma en cuenta las que sean solo números
   // const words = text.split(" ").match(/[a-zA-Z]+/g); No funcionó porque .split devuelve array y .match solo funciona con cadenas de texto y no con arrays
   //______________________________
-  
-  
+
+
   getCharacterCount: (text) => {
     //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
     //- SEUDO CÓDIGO:
@@ -55,8 +55,8 @@ const analyzer = {
     return Number(averageWordLength.toFixed(2));
   },
   //______________________________
-  
-  
+
+
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
     //- SEUDO CÓDIGO:
@@ -75,13 +75,20 @@ const analyzer = {
     const words = text.trim().split(' ');
     //- ver qué palabras son números (cifras válidas) antes de sumarlo (agregarlo al acumulador)
     let sum = 0
-    for(let i=0; i<(words.length); i++){
-      if(Number(words[i])){ //Number() se utiliza para convertir un valor a su equivalente numérico.
-    //sumar las cifras válidas, incluyendo las que tengan decimales
-        sum += parseFloat(words[i])}} // parseFloat() permite convertir una cadena a un número porque permite la conversión de cadenas con decimales.
+    for (let i = 0; i < (words.length); i++) {
+      if (Number(words[i])) { //Number() se utiliza para convertir un valor a su equivalente numérico.
+        //- sumar las cifras válidas, incluyendo las que tengan decimales
+        sum += parseFloat(words[i])
+      } // parseFloat() permite convertir una cadena a un número porque permite la conversión de cadenas con decimales.
+      else {
+        console.log(`'${words[i]}' no es número.`);
+      }
+    }
     return sum;
   },
-  /*const onlyNumbers = text.replace(/[^0-9]/g, '');
+  /* Esta función no suma decimales ni cifras como tal, solo los dígitos encontrados, uno por uno:
+
+  const onlyNumbers = text.replace(/[^0-9]/g, '');
     const figures = onlyNumbers.split(' ');
   
     let sum = 0;
@@ -90,7 +97,7 @@ const analyzer = {
     }
     return sum;*/
 };
-    
+
 console.log(analyzer.getWordCount('Felicidad y paz 123 oli89 para234guas interior'));//7
 console.log(analyzer.getCharacterCount('abc def hij 123 456'));//19
 console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- oli345 y paz '));//22
@@ -98,6 +105,6 @@ console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- y paz '
 console.log(analyzer.getAverageWordLength(' luci mar oscar '));//4
 console.log(analyzer.getNumberCount(' luci322 6 7 89 ma7ri oscar '));//8
 console.log(analyzer.getNumberSum(' saco3 casa 2.1 2 '));//4.1
-  
-  
+
+
 export default analyzer;

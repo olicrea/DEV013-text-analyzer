@@ -759,3 +759,23 @@ en los archivos [test/analyzer.spec.js](test/analyzer.spec.js) y
 [read-only/test/e2e/app.spec.js](read-only/test/e2e/app.spec.js).
 También tendrás que ajustar las pruebas ya existentes de las
 funcionalidades requeridas.
+
+## Algunos elementos aplicados:
+En web APIs:
+* ['']:
+
+
+En JavaScript:
+* ['.length']: Propiedad.
+* ['.split()']: Método.
+* ['.trim()']: Método.
+* ['.replace()']: Método.
+* ['.toFixed()']: Método.
+* ['Number()']: Función.
+* ['.parseFloat()']: Función.
+* ['console.log']: Función.
+* ['for']: Palabra clave.
+* ['if-else']: Estructura condicional.
+* ['=>']: Operador.
+* ['$']: sintaxis para template literals.
+* ['[i]']: Sintaxis de acceso a un elemento de array.
