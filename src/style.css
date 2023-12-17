@@ -36,7 +36,7 @@ footer {
     font-weight: bold;
 }
 
-.item-impar, .item-par {
+.item-odd, .item-pair {
     width: 300px;
     border: 1px solid black;
     padding: 2px 2px 2px 10px;
@@ -45,11 +45,11 @@ footer {
     font-size: medium;
 }
 
-.item-impar {
+.item-odd {
     background:rgba(155, 155, 155, 0.5);
 }
 
-.item-par {
+.item-pair {
     background: rgba(255, 255, 255, 0.5);
 }
 

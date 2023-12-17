@@ -766,16 +766,16 @@ En web APIs:
 
 
 En JavaScript:
-* ['.length']: Propiedad.
-* ['.split()']: Método.
-* ['.trim()']: Método.
-* ['.replace()']: Método.
-* ['.toFixed()']: Método.
-* ['Number()']: Función.
-* ['.parseFloat()']: Función.
-* ['console.log']: Función.
-* ['for']: Palabra clave.
-* ['if-else']: Estructura condicional.
-* ['=>']: Operador.
-* ['$']: sintaxis para template literals.
-* ['[i]']: Sintaxis de acceso a un elemento de array.
+* '.length': Propiedad.
+* '.split()': Método.
+* '.trim()': Método.
+* '.replace()': Método.
+* '.toFixed()': Método.
+* 'Number()': Función.
+* '.parseFloat()': Función.
+* 'console.log': Función.
+* 'for': Palabra clave.
+* 'if-else': Estructura condicional.
+* '=>': Operador.
+* '$': sintaxis para template literals.
+* '[i]': Sintaxis de acceso a un elemento de array.
