@@ -762,9 +762,9 @@ funcionalidades requeridas.
 
 ## Algunos elementos aplicados:
 
-Web APIs y JavaScript:
+### Web APIs y JavaScript:
 
-* **Funciones**
+  - **Funciones**
 - `Number()`: Función que convierte un valor a un número. Sintaxis:
 ``let x = Number(anyValue);``
 - `.parseFloat()`: Función que convierte una cadena a un número de punto flotante.
