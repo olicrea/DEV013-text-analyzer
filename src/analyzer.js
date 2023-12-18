@@ -62,8 +62,13 @@ const analyzer = {
     //- SEUDO CÓDIGO:
     //- descartar todo lo que no sea número
     //- contar cuántos números hay, no cuánto suman entre ellos
-    const numbers = text.replace(/[^0-9]/g, '');
-    return numbers.length;
+    const numbers = text.match(/\b\d+(\.\d+)?\b/g);
+    if (numbers) {
+      return numbers.length;
+    }
+    else {
+      return 0;
+    }
   },
   //______________________________
 
@@ -93,7 +98,7 @@ const analyzer = {
       sum += parseFloat(onlyNumbers[i]);
     }
     return sum;*/
-};
+}
 
 /*console.log(analyzer.getWordCount('Felicidad y paz 123 oli89 para234guas interior'));//7
 console.log(analyzer.getCharacterCount('abc def hij 123 456'));//19
@@ -103,5 +108,8 @@ console.log(analyzer.getAverageWordLength(' luci mar oscar '));//4
 console.log(analyzer.getNumberCount(' luci322 6 7 89 ma7ri oscar '));//8
 console.log(analyzer.getNumberSum(' saco3 casa 2.1 2 '));//4.1*/
 
+
+/*const TEST_TEXT_NO_NUMBERS = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
+const TEST_TEXT_DECIMALS = 'Calcular la suma de 1.65 más 0.15 y más 1.10';*/
 
 export default analyzer;
