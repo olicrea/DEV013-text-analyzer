@@ -764,7 +764,7 @@ funcionalidades requeridas.
 
 ### Web APIs y JavaScript:
 
-  - **Funciones**
+  - **Funciones**:
 - `Number()`: Función que convierte un valor a un número. Sintaxis:
 ``let x = Number(anyValue);``
 - `.parseFloat()`: Función que convierte una cadena a un número de punto flotante.
@@ -780,7 +780,7 @@ funcionalidades requeridas.
 - `.toFixed()`: Método que redondea un número al número especificado de decimales.
 - `.match()`: Método que busca una cadena para una coincidencia con una expresión regular.
 
-* **Atributos**
+  - **Atributos**:
 - `.value`: Atributo que obtiene o establece el valor de un elemento de formulario.
 - `.placeholder`: Atributo especifica un texto de ayuda en un campo de entrada.
 
