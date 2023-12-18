@@ -764,7 +764,7 @@ funcionalidades requeridas.
 
 ### Web APIs y JavaScript:
 
-  - **Funciones**:
+  - **Función**:
 - `Number()`: Función que convierte un valor a un número. Sintaxis:
 ``let x = Number(anyValue);``
 - `.parseFloat()`: Función que convierte una cadena a un número de punto flotante.
@@ -784,17 +784,15 @@ funcionalidades requeridas.
 - `.value`: Atributo que obtiene o establece el valor de un elemento de formulario.
 - `.placeholder`: Atributo especifica un texto de ayuda en un campo de entrada.
 
-* **Propiedades**
+  - **Propiedades**:
 - `.length`: Propiedad que devuelve la longitud de una cadena o array.
 - `.textContent`: Propiedad obtiene o establece el contenido de texto de un elemento.
 
-* **Eventos**
-- `"click"`: Tipo de evento que ocurre al hacer clic en un elemento.
-- `"input"`: Tipo de evento que ocurre al soltar una tecla.
-
-* **Otros elementos clave**
+  - **Otros elementos clave**:
 - `if-else`: Estructura condicional para tomar decisiones.
 - `for`: Palabra clave para bucles de repetición.
+- `"click"`: Tipo de evento que ocurre al hacer clic en un elemento.
+- `"input"`: es una etiqueta HTML que crea controles interactivos en formularios web, como campos de texto, casillas de verificación o botones. Se utiliza para recopilar información del usuario mediante la entrada de datos.
 - `import`: Palabra clave de ES6 para importar módulos.
 - `export`: Palabra clave de ES6 para exportar módulos.
 - `export default`: Sintaxis de ES6 para exportar un valor predeterminado.
