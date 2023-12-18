@@ -764,8 +764,8 @@ funcionalidades requeridas.
 
 Web APIs y JavaScript:
 
-  - **Funciones**:
-- `Number()`: Función que convierte un valor a un número. 
+* **Funciones**
+- `Number()`: Función que convierte un valor a un número. Sintaxis:
 ``let x = Number(anyValue);``
 - `.parseFloat()`: Función que convierte una cadena a un número de punto flotante.
 - `console.log`: Función que muestra mensajes en la consola.
@@ -780,19 +780,19 @@ Web APIs y JavaScript:
 - `.toFixed()`: Método que redondea un número al número especificado de decimales.
 - `.match()`: Método que busca una cadena para una coincidencia con una expresión regular.
 
- - **Atributos**:
+* **Atributos**
 - `.value`: Atributo que obtiene o establece el valor de un elemento de formulario.
 - `.placeholder`: Atributo especifica un texto de ayuda en un campo de entrada.
 
- - **Propiedades**:
+* **Propiedades**
 - `.length`: Propiedad que devuelve la longitud de una cadena o array.
 - `.textContent`: Propiedad obtiene o establece el contenido de texto de un elemento.
 
- - **Eventos**:
+* **Eventos**
 - `"click"`: Tipo de evento que ocurre al hacer clic en un elemento.
-- `"keyup"`: Tipo de evento que ocurre al soltar una tecla.
+- `"input"`: Tipo de evento que ocurre al soltar una tecla.
 
- - **Otros elementos clave**:
+* **Otros elementos clave**
 - `if-else`: Estructura condicional para tomar decisiones.
 - `for`: Palabra clave para bucles de repetición.
 - `import`: Palabra clave de ES6 para importar módulos.
