@@ -764,6 +764,7 @@ funcionalidades requeridas.
 
 ### Web APIs y JavaScript:
 
+
   - **Función**:
 - `Number()`: Función que convierte un valor a un número. Sintaxis:
 ``let x = Number(anyValue);``
