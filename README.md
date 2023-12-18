@@ -761,21 +761,45 @@ También tendrás que ajustar las pruebas ya existentes de las
 funcionalidades requeridas.
 
 ## Algunos elementos aplicados:
-En web APIs:
-* ['']:
 
+Web APIs y JavaScript:
 
-En JavaScript:
-* '.length': Propiedad.
-* '.split()': Método.
-* '.trim()': Método.
-* '.replace()': Método.
-* '.toFixed()': Método.
-* 'Number()': Función.
-* '.parseFloat()': Función.
-* 'console.log': Función.
-* 'for': Palabra clave.
-* 'if-else': Estructura condicional.
-* '=>': Operador.
-* '$': sintaxis para template literals.
-* '[i]': Sintaxis de acceso a un elemento de array.
+  - **Funciones**:
+- `Number()`: Función que convierte un valor a un número. 
+``let x = Number(anyValue);``
+- `.parseFloat()`: Función que convierte una cadena a un número de punto flotante.
+- `console.log`: Función que muestra mensajes en la consola.
+
+  - **Métodos**:
+- `document.querySelector`: Método que busca y devuelve el primer elemento que coincide con un selector CSS.
+- `document.getElementById`: Método que obtiene un elemento del DOM por su ID.
+- `.addEventListener`: Método que agrega un escucha de eventos a un elemento.
+- `.split()`: Método que divide una cadena en un array de subcadenas.
+- `.trim()`: Método que elimina espacios en blanco al principio y al final de una cadena.
+- `.replace()`: Método que reemplaza parte de una cadena con otra.
+- `.toFixed()`: Método que redondea un número al número especificado de decimales.
+- `.match()`: Método que busca una cadena para una coincidencia con una expresión regular.
+
+ - **Atributos**:
+- `.value`: Atributo que obtiene o establece el valor de un elemento de formulario.
+- `.placeholder`: Atributo especifica un texto de ayuda en un campo de entrada.
+
+ - **Propiedades**:
+- `.length`: Propiedad que devuelve la longitud de una cadena o array.
+- `.textContent`: Propiedad obtiene o establece el contenido de texto de un elemento.
+
+ - **Eventos**:
+- `"click"`: Tipo de evento que ocurre al hacer clic en un elemento.
+- `"keyup"`: Tipo de evento que ocurre al soltar una tecla.
+
+ - **Otros elementos clave**:
+- `if-else`: Estructura condicional para tomar decisiones.
+- `for`: Palabra clave para bucles de repetición.
+- `import`: Palabra clave de ES6 para importar módulos.
+- `export`: Palabra clave de ES6 para exportar módulos.
+- `export default`: Sintaxis de ES6 para exportar un valor predeterminado.
+- `$`: Sintaxis para template literals 
+- `[i]`: Sintaxis de acceso a un elemento de array por índice.
+- `===`: Operador de igualdad estricta.
+- `=>`: Operador de función flecha.
+- `:nth-child()`: Selector de CSS para seleccionar elementos según su posición en relación con sus padres.

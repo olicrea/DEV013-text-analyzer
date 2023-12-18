@@ -25,7 +25,7 @@ function resetTextarea() {
 
 button.addEventListener("click", resetTextarea);
 
-textarea.addEventListener("keyup", function() {
+textarea.addEventListener("input", function() {
 
   if (textarea.value === '') {
     resetTextarea();}
