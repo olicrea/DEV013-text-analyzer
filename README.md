@@ -21,7 +21,7 @@
 
 ## 2. Preámbulo
 
-![Resultado]('../img/resultado.png)
+![Resultado]['../img/resultado.png]
 
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas.
@@ -290,7 +290,7 @@ relacionados con cada objetivo de aprendizaje.
 * **Diseñar y desarrollar un producto o servicio poniendo a las
 usuarias en el centro**
 
-Para lograrlo se realizó un diseño sencillo pensando en que su contenido estuviera en inglés, fuese lo más "minimal" posible y también mostrara cierta elegancia. Como para una usuaria práctica, adulto contemporánea y con sensibilidad por la estética.
+Para lograrlo se realizó un diseño sencillo, pensando en que su contenido estuviera en inglés, fuese lo más "minimal" posible y también mostrara cierta elegancia. Para una usuaria práctica, adulto contemporánea y con sensibilidad por la estética.
 
 ### Diseño de producto
 
@@ -298,9 +298,9 @@ Para lograrlo se realizó un diseño sencillo pensando en que su contenido estuv
 
   - [x] La estudiante creó prototipos de baja fidelidad para la UI (interfaz gŕafica).
 
-El prototipo de baja fidelidad fu representado usando la aplicación excalidraw:
+El prototipo de baja fidelidad fue representado usando la aplicación excalidraw:
 
-![Prototipo de baja fidelidad]('../img/prototipo-de-baja-fidelidad.png)
+![Prototipo de baja fidelidad]['../img/prototipo-de-baja-fidelidad.png]
 
 ## 7. Pruebas
 
@@ -533,3 +533,7 @@ Objetivos marcados después de la reflexión, después de comprendidos y aplicad
 - `[i]`: Sintaxis de acceso a un elemento de array por índice.
 - `===`: Operador de igualdad estricta.
 - `=>`: Operador de función flecha.
+
+
+['../img/prototipo-de-baja-fidelidad.png]: '../img/prototipo-de-baja-fidelidad.png
+['../img/resultado.png]: '../img/resultado.png
