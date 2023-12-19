@@ -1,5 +1,14 @@
 # Analizador de texto
 
+<p align="center">
+  <img src= https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white alt="Visual Studio Code">
+  <img src=https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
 ## Índice
 
 * [1. Consideraciones generales](#1-consideraciones-generales)
@@ -16,8 +25,9 @@
 
 ## 1. Consideraciones generales
 
-* Este proyecto fue resuelto de manera **individual**.
-* El rango de tiempo fue 1 Sprint y 2 días.
+* Este proyecto fue realizado dentro del marco de bootcamp de desarrollo web impusado por https://www.laboratoria.la/.
+* Fue resuelto de manera **individual**.
+* El rango de tiempo fue 1 Sprint y 3 días.
 
 ## 2. Preámbulo
 
