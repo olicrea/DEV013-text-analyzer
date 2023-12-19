@@ -21,7 +21,7 @@
 
 ## 2. Preámbulo
 
-![Resultado]['../img/resultado.png]
+![Resultado](image.png)
 
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas.
@@ -300,7 +300,7 @@ Para lograrlo se realizó un diseño sencillo, pensando en que su contenido estu
 
 El prototipo de baja fidelidad fue representado usando la aplicación excalidraw:
 
-![Prototipo de baja fidelidad]['../img/prototipo-de-baja-fidelidad.png]
+![Prototipo](image-1.png)
 
 ## 7. Pruebas
 
