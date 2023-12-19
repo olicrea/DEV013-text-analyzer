@@ -21,6 +21,8 @@
 
 ## 2. Preámbulo
 
+![Resultado]('../img/resultado.png)
+
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas.
 
@@ -65,8 +67,6 @@ resultado en tiempo real a medida que la usuaria escribe su texto:
 3. La aplicación permite limpiar el contenido de la caja de texto haciendo
 clic en un botón.
 
-![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
-
 ## 5. Boilerplate
 
 La lógica del proyecto está implementada completamente en JavaScript. En
@@ -94,7 +94,7 @@ El boilerplate recibido contiene la siguiente estructura estructura:
 ```
 ***
 
-  Para ejemplo de uso que se esperaba de cada función Laboratoria recomendó ver el archivo
+  Como ejemplo de uso que se esperaba de cada función, Laboratoria recomendó ver el archivo
   [`test/analyzer.spec.js`](./test/analyzer.spec.js).
 
   En este proyecto, se utiliza _Github Pages_ para desplegar nuestro sitio web (Deploy).
@@ -290,11 +290,17 @@ relacionados con cada objetivo de aprendizaje.
 * **Diseñar y desarrollar un producto o servicio poniendo a las
 usuarias en el centro**
 
+Para lograrlo se realizó un diseño sencillo pensando en que su contenido estuviera en inglés, fuese lo más "minimal" posible y también mostrara cierta elegancia. Como para una usuaria práctica, adulto contemporánea y con sensibilidad por la estética.
+
 ### Diseño de producto
 
 * **Diseñar en distintos niveles de fidelidad**
 
   - [x] La estudiante creó prototipos de baja fidelidad para la UI (interfaz gŕafica).
+
+El prototipo de baja fidelidad fu representado usando la aplicación excalidraw:
+
+![Prototipo de baja fidelidad]('../img/prototipo-de-baja-fidelidad.png)
 
 ## 7. Pruebas
 
@@ -322,18 +328,15 @@ Se ejecutaron estas pruebas con el comando `npm run test:e2e`
 
 Este repositorio usa una GitHub Action para ejecutar automáticamente
 las pruebas unitarias, pruebas de criterios mínimos de aceptación y
-y pruebas end-to-end cada vez que se hagas un _push_ en la rama
+y pruebas end-to-end cada vez que se haga un _push_ en la rama
 _main_ del repositorio.
 
-Puedes consultar el resultado de esta Github Action
-en la pestaña _Actions_ de tu repositorio en Github
-como se muestra en la siguiente imagen:
-
-![Github Action](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650640-a8a8ed26-6f48-4053-8b3b-7dec7e35a9f8.gif "Github Action")
+Se puede consultar el resultado de esta Github Action
+en la pestaña _Actions_ del repositorio en Github.
 
 ## 8. Objetivos de aprendizaje
 
-Objetivos marcados después de la reflexión, ya que fueron comprendidos y aplicados en el proyecto. Fueron esenciales al decidir la estrategia de trabajo.
+Objetivos marcados después de la reflexión, después de comprendidos y aplicados en el proyecto. Fueron esenciales al decidir la estrategia de trabajo.
 
 ### HTML
 

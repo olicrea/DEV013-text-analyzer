@@ -4,13 +4,16 @@
 }
 
 body {
-    background-image: url('https://images.unsplash.com/photo-1617634667039-8e4cb277ab46?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('../img/leandra.jpg');
     display: flex;
     flex-direction:column; /* Todo el body en una columna */
     align-items: center; /* Centrado horizontal */
     justify-content: center; /* Centrado vertical */
     height: 100vh; /* Para que el cuerpo ocupe al menos el 100% de la altura de la ventana */
     margin: 0;
+    background-size: cover; /* Ajusta la imagen para cubrir completamente el fondo */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header {
