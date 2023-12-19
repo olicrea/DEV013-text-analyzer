@@ -86,7 +86,7 @@ const analyzer = {
         sum += parseFloat(words[i])
       } // parseFloat() permite convertir una cadena a un número porque permite la conversión de cadenas con decimales.
     }
-    return sum;
+    return sum.toFixed(2);
   },
   /* Esta función no suma decimales ni cifras como tal, solo los dígitos encontrados, uno por uno:
 
