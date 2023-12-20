@@ -86,7 +86,7 @@ const analyzer = {
         sum += parseFloat(words[i])
       } // parseFloat() permite convertir una cadena a un número porque permite la conversión de cadenas con decimales.
     }
-    return sum.toFixed(2);
+    return sum;
   },
   /* Esta función no suma decimales ni cifras como tal, solo los dígitos encontrados, uno por uno:
 
@@ -105,7 +105,7 @@ console.log(analyzer.getCharacterCount('abc def hij 123 456'));//19
 console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- oli345 y paz '));//22
 console.log(analyzer.getCharacterCountExcludingSpaces(' Felicidad 123 ;- y paz '));//16
 console.log(analyzer.getAverageWordLength(' luci mar oscar '));//4
-console.log(analyzer.getNumberCount(' luci322 6 7 89 ma7ri oscar '));//8
+console.log(analyzer.getNumberCount('Calculate the sum of 1.65 plus 0.15 plus 1.10.'));//
 console.log(analyzer.getNumberSum(' saco3 casa 2.1 2 '));//4.1*/
 
 
