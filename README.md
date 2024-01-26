@@ -7,6 +7,8 @@
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
   <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white">
+
    
 </p>
 
@@ -508,7 +510,7 @@ Objetivos marcados después de la reflexión, después de comprendidos y aplicad
 
 - [x] **Seguir los principios básicos de diseño visual**
 
-## 9 Algunos conceptos aplicados:
+## 9 Algunos conceptos aplicados
 
 ### Web APIs y JavaScript:
 
