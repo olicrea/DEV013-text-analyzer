@@ -33,8 +33,6 @@
 
 ## 2. Preámbulo
 
-![Resultado](image.png)
-
 Un analizador de texto es una aplicación para extraer información útil de un
 texto utilizando diversas técnicas.
 
@@ -50,6 +48,8 @@ En este proyecto se creó una aplicación web que servirá para que la usuaria
 pueda analizar un texto en el navegador mostrando una serie de indicadores y
 métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
 enviadas como _input_ por ella. Se hizo utilizando HTML, CSS y JavaScript.
+
+![Resultado](image.png)
 
 ## 4. Funcionalidades
 
@@ -302,7 +302,7 @@ relacionados con cada objetivo de aprendizaje.
 * **Diseñar y desarrollar un producto o servicio poniendo a las
 usuarias en el centro**
 
-Para lograrlo se realizó un diseño sencillo, pensando en que su contenido estuviera en inglés, fuese lo más "minimal" posible y también mostrara cierta elegancia. Para una usuaria práctica, adulto contemporánea y con sensibilidad por la estética.
+Para lograrlo se realizó un diseño sencillo, pensando en que su contenido estuviera en inglés, fuese lo más "minimalista" posible y también mostrara cierta elegancia. Para una usuaria práctica, adulto contemporánea y con sensibilidad por la estética.
 
 ### Diseño de producto
 
